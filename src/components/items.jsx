@@ -6,9 +6,9 @@ const Items = ({ items }) => (
     {items.map((item, index) => {
       return (
         <Item
+          name={item.name}
+          Date={item.Date}
           key={index}
-          eventName={item.name}
-          eventDate={item.Date}
         />
       );
     })}

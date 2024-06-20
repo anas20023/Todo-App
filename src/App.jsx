@@ -20,6 +20,7 @@ export default function Div() {
       <Heading></Heading>
       <Top_bar />
       <Items items={itemarr} />
+      <Items items={itemarr} />
     </div>
   );
 }
