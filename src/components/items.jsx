@@ -1,6 +1,6 @@
-export default function Item_Add() {
-  let event_name = "Go to School";
-  let event_date = "04/10/2023";
+export default function Item_Add(obj) {
+  let event_name = obj.ev_name;
+  let event_date = obj.ev_date;
   return (
     <div className="flex flex-row w-full sm:w-full lg:w-2/4 mt-5 h-10 justify-between items-center gap-1.5">
       <p className="w-2/5 px-3 py-4 text-lg text-gray-700 font-semibold">
